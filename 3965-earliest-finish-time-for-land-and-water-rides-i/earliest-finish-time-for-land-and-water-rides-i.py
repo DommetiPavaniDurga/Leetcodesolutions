@@ -13,4 +13,4 @@ class Solution:
                 land_start=max(water_finish,landStartTime[i])
                 land_finish=land_start+landDuration[i]
                 ans=min(ans,land_finish)
-        return ans   
+        return ans
